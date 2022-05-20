@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8">
+    <title>CSV Viewer</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <div class="topnav">
+    <a class="active" href="index.html">Home</a>
+    <a href="Weekly.html">Weekly</a>
+    <a href="Monthly.html">Monthly</a>
+  </div>
+
+
+  <body>
+
+    <div class = "head">
+      <h1 class = "heading">Weekly Data</h1>
+    </div>
+
+    <div class="links">
+      <ul>
+        <li > <a href="https://optic302.s3.us-west-1.amazonaws.com/04-24-2022.csv"  id="link1" style="color:rgb(39, 103, 222);"> 4-24-2022.csv</a> </li>
+        <li> <a href="https://optic302.s3.us-west-1.amazonaws.com/04-25-2022.csv" class="link2" style="color:rgb(39, 103, 222);">4-25-2022.csv</a> </li>
+        <li><a href="https://optic302.s3.us-west-1.amazonaws.com/04-26-2022.csv" class="link3" style="color:rgb(39, 103, 222);">4-26-2022.csv</a></li>
+        <li><a href="https://optic302.s3.us-west-1.amazonaws.com/04-29-2022.csv" class="link4" style="color:rgb(39, 103, 222);">4-29-2022.csv</a></li>
+        <li><a href="https://optic302.s3.us-west-1.amazonaws.com/04-30-2022.csv" class="link5" style="color:rgb(39, 103, 222);" >4-30-2022.csv</a></li>
+      </ul>
+    </div>
+    <table id="csvRoot"></table>
+
+    <script  src="./lib/papaparse.min.js"></script>
+    <script  src="./script.js"></script>
+
+  </body>
+</html>
